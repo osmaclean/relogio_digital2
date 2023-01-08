@@ -10,19 +10,31 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+
+.h2 {
+    color: black;
+    margin: -99px 0px 47px 0px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.h2:hover {
+    color: aliceblue;
 }
 
 #time {
     display: flex;
-    border: 1px solid black;
     border-radius: 5px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
     padding: 30px;
     gap: 40px;
     color: white;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
 }
 
 #time .circle {
@@ -62,7 +74,24 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 1.5em;
+    
 
+}
+
+.day {
+    margin-bottom: 20px;
+}
+
+.hour {
+    margin-bottom: 20px;
+}
+
+.minutes {
+    margin-bottom: 20px;
+}
+
+.seconds {
+    margin-bottom: 20px;
 }
 
 #time div span {
