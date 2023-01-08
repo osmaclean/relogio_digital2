@@ -35,6 +35,10 @@ body {
     align-items: center;
 }
 
+#time .circle svg {
+
+}
+
 #time div {
     position: absolute;
     text-align: center;
@@ -48,3 +52,6 @@ body {
     font: 1em;
     transform: translate(-20px);
 }
+
+
+
