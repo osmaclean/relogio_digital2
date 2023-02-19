@@ -2,13 +2,15 @@
 
 ### Projeto criado para construir um relógio digital.
 
+<hr>
+
 ## Modo Desktop 
 
 ![FireShot Capture 021 - Relógio Digital 2 - osmaclean github io](https://user-images.githubusercontent.com/115199808/211300752-be6ccdcc-fdf0-4564-8409-f318caf9e28a.png)
 
 <hr>
 
-## Link do Deploy (Vercel)
+## Link de Acesso ao Projeto (Vercel)
 
 https://relogio-digital2.vercel.app/
 
